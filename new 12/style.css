@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section.top-header {
+    width: 1903px;
+    height: 75px;
+    display: flex;
+    font-size: 16px;
+    background: #ffffff;
+    justify-content: space-between;
+}
+
+
+h1 {
+    margin: 0px 16px 0px 0px;
+    padding: 5px 48px;
+    font-size: 32px;
+    color: #06bbcc;
+}
+.header-right{
+    display: flex;
+}
+.menu {
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+.menu ul {
+    display: flex;
+    list-style: none;
+    margin-right: 30px;
+
+}
+.menu ul li a{
+    text-decoration: none;
+    margin-right: 35px;
+    padding: 25px;
+    font-size: 25px;
+    
+}
+.header-btn{
+    padding-right: 24px;
+    background-color: #06bbcc;
+    padding: 28px;
+}
+.header-btn a{
+    text-decoration: none;
+}
+body{
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Heebo', sans-serif;
+}
+
+/*hero section css */
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(/img/carousel-2.jpg);
+    height: 100vh;
+    background-size: cover;
+    justify-content: center;
+    font-size: larger;
+    flex-direction: column;
+    
+}
+.hero-details h3{
+    color: aqua;
+}
+.hero-details h1{
+    color: white;
+}
+.hero-details p{
+    color: white;
+}
+.hero-btn{
+    display: flex;
+    margin-top: 50px;
+}
+.btn2{
+   margin-right: 60px;
+   padding: 15px 55px;
+   background-color: aliceblue;
+   text-decoration: none;
+}
+.btn3{
+    padding: 15px 55px;
+    background-color: aquamarine;
+    text-decoration: none;
+    
+}
+.hero-btn a{
+    text-decoration: none;
+}
+
